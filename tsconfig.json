@@ -7,7 +7,7 @@
     "module": "commonjs",
     "target": "es5",
     "lib": ["esnext"],
-    "removeComments": true,
+    "removeComments": false,
     "allowSyntheticDefaultImports": true,
     "allowJs": false,
     "baseUrl": "./",
