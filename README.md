@@ -13,9 +13,13 @@ To use our types as package we need to compile it to the `.d.ts` a.k.a declarati
 
 2) Create `index.ts` outside `src` folder.
 
-Allows us to export all code from src.
+    Allows us to export all code from src.
 
 3) Build
+
+      ```bash
+      tsc
+      ```
 
 ## How to use it?
 
@@ -36,7 +40,7 @@ pnpm build
 
 3) Inspect compiled types declarations in the `dist` folder.
 
-## How to publish to registry?
+## How to publish to the registry?
 
 I added files for npm registry. You can safely delete it or replace.
 
