@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": ".",
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["esnext"],
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationDir": "./dist"
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.d.ts", "index.ts"],
+  "exclude": ["node_modules"]
+}
