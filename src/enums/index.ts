@@ -2,7 +2,7 @@
  * Enum example
  *
  * @export
- * @enum {number}
+ * @enum ESome
  */
 export enum ESome {
   Some1 = 'Some_1',

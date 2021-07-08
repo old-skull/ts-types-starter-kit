@@ -2,6 +2,6 @@
  * Type example
  *
  * @export
- * @interface ISome
+ * @interface TStringOrNumber
  */
 export type TStringOrNumber = string | number;
