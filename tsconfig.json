@@ -16,7 +16,8 @@
     "moduleResolution": "node",
     "emitDeclarationOnly": true,
     "declaration": true,
-    "declarationDir": "./dist"
+    "declarationDir": "./dist",
+    "strict": true
   },
   "include": ["./src/**/*.ts", "./src/**/*.d.ts", "index.ts"],
   "exclude": ["node_modules"]
