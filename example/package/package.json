@@ -1,0 +1,29 @@
+{
+  "name": "ts-types-starter-kit",
+  "version": "1.0.0",
+  "keywords": [
+    "ts",
+    "typescript"
+  ],
+  "main": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.d.ts",
+      "default": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "TicTak21",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.4"
+  }
+}
