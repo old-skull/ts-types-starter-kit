@@ -20,5 +20,8 @@
     "dist"
   ],
   "author": "TicTak21",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
 }
